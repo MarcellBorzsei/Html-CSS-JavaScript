@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    
+    <div class="float-container">
+        <div class="table-container">
+            <h1>Burgonya Térkép</h1>
+
+            <table id="drawtable"></table>
+
+        </div>
+
+
+        <div class="gamestats-container">
+            
+            <!--<h2>Other stuff</h2> -->
+            <div class="seasons">
+                <div class="spring"><h2 id="spring">Tavasz</h2></div>
+                <div class="summer"><h2 id="summer">Nyár</h2></div>
+                <div class="fall"><h2 id="fall">Ősz</h2></div>
+                <div class="winter"><h2 id="winter">Tél</h2></div>
+            </div>
+            <h2 id="score">Összesen</h2>
+
+            <h2 id="currentSeason">Jelenlegi évszak: Tavasz (AB)</h2>
+            <hr>
+
+            <div class="missions">
+                <table id="missionsTable">
+                <tr>
+                    <td id="mission1"><h3 id="missionCounter1">0</h3></td>
+                    <td id="mission2"><h3 id="missionCounter2">0</h3></td>
+                </tr>
+                <tr>
+                    <td id="mission3"><h3 id="missionCounter3">0</h3></td>
+                    <td id="mission4"><h3 id="missionCounter4">0</h3></td>
+                </tr>
+            </table>
+            </div>
+
+            
+
+            <div class="currentElement">
+            <div>
+
+                <h2 id="restOfTime">Évszakból hátralévő idő</h2>
+                <hr>
+                <h2>Lehelyezendő elem</h2>
+
+                <button id="rotateButton">Forgatás</button>
+                <button id="mirrorButton">Tükrözés</button>
+            </div>
+            <div id="currentElementSquare">
+                <h3 id="currentElementTime"></h3>
+                <table id="currentElementTable"></table>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

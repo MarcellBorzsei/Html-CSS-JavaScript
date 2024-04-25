@@ -1,0 +1,221 @@
+:root{
+    --nSizeNum: 11;
+    --tdSize: 50px;
+}
+
+body{
+    margin: 0;
+    background-image: url(pictures/potatoCover.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    width:100%;
+}
+
+.mountain{
+    background-image: url(pictures/tiles/mountain_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.forest{
+    background-image: url(pictures/tiles/forest_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.farm{
+    background-image: url(pictures/tiles/plains_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.town{
+    background-image: url(pictures/tiles/village_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.water{
+    background-image: url(pictures/tiles/water_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.base{
+    background-image: url(pictures/tiles/base_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mountain-pre{
+    background-image: url(pictures/tiles/mountain_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.forest-pre{
+    background-image: url(pictures/tiles/forest_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.farm-pre{
+    background-image: url(pictures/tiles/plains_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.town-pre{
+    background-image: url(pictures/tiles/village_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.water-pre{
+    background-image: url(pictures/tiles/water_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.base-pre{
+    background-image: url(pictures/tiles/base_tile.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border: 1px solid black; /* Adjust border thickness */
+    width: var(--nSizeNum)*var(--tdSize); 
+    height: var(--nSizeNum)*var(--tdSize); 
+    padding: 0;
+}
+
+.table-container td{
+    border: 1px solid black;
+    width: var(--tdSize);
+    height: var(--tdSize);
+}
+.float-container{
+    border: 3px solid #fff;
+    padding: 20px;
+    display: flex;
+}
+
+.table-container, .gamestats-container{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.seasons{
+    display: flex;
+}
+
+.seasons div{
+
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 5%;
+    border: 4px solid;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+#score{
+    text-align: center;
+}
+
+.seasons .spring{
+    background-color: lightgreen;
+    border-color: green;  
+}
+.seasons .summer{
+    background-color: rgb(254, 254, 143);
+    border-color: yellow
+}
+.seasons .fall{
+    background-color: lightsalmon;
+    border-color: salmon
+}
+.seasons .winter{
+    background-color: lightblue;
+    border-color: blue
+}
+
+#missionsTable{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    
+
+}
+#missionsTable td{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+
+}
+
+#missionsTable h3{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    color: whitesmoke;
+}
+
+#currentElementTable{
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border: 1px solid black; 
+    width: 150px; 
+    height: 150px; 
+    padding: 0;
+}
+
+#currentElementTable td{
+    border: 1px solid black;
+    width: 50px;
+    width: 50px;
+}
+
+.currentElement{
+    padding: 100px;
+}
+
+#currentElementTime{
+    text-align: center;
+}
+
+.missions{
+    width: fit-content;
+}
+
+.missionhighlight{
+    border: 2px solid red;
+}
